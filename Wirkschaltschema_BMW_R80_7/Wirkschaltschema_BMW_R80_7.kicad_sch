@@ -1299,6 +1299,420 @@
 				)
 			)
 		)
+		(symbol "Silen_Hektik_Microlino Zündung:Silent_Hektik_Microlino_Zündung"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Microlino_Zündung"
+				(at -2.54 -5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Silent_Hektik_Microlino_Zündung_0_1"
+				(rectangle
+					(start -10.16 -22.86)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Silent_Hektik_Microlino_Zündung_1_1"
+				(pin power_in line
+					(at -3.81 -25.4 90)
+					(length 2.54)
+					(name "Bat_++"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -1.27 -25.4 90)
+					(length 2.54)
+					(name "Bat_--"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 1.27 -25.4 90)
+					(length 2.54)
+					(name "Res_ZSP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -25.4 90)
+					(length 2.54)
+					(name "Res_ZSP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -8.89 -25.4 90)
+					(length 2.54)
+					(name "ZSP_++"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 -25.4 90)
+					(length 2.54)
+					(name "ZSP_--"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -8.89 0)
+					(length 2.54)
+					(name "Hallsensor"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -11.43 0)
+					(length 2.54)
+					(name "Hallsensor"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Silent_Hektik_LiMa_Dauer_Drehstr._Kont_3Pha.:LiMa"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "LiMa-Kontroller"
+				(at 10.16 -0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LiMa_0_1"
+				(rectangle
+					(start 2.54 -2.54)
+					(end 17.78 -22.86)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LiMa_1_1"
+				(pin power_out line
+					(at 0 -8.89 0)
+					(length 2.54)
+					(name "Bat_--"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -3.81 0)
+					(length 2.54)
+					(name "GLa"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 0 -6.35 0)
+					(length 2.54)
+					(name "Bat_--"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -11.43 0)
+					(length 2.54)
+					(name "LiMa_U"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -13.97 0)
+					(length 2.54)
+					(name "LiMa_V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -16.51 0)
+					(length 2.54)
+					(name "LiMa_W"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -19.05 0)
+					(length 2.54)
+					(name "Bat_+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -21.59 0)
+					(length 2.54)
+					(name "Bat_+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_DPST_x2"
 			(pin_names
 				(offset 0) hide)
@@ -2318,6 +2732,94 @@
 			(project "Wirkschaltschema_BMW_R80_7"
 				(path "/6b7edb0b-ba84-49d7-8a33-d453b93ff911"
 					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Silen_Hektik_Microlino Zündung:Silent_Hektik_Microlino_Zündung")
+		(at 167.64 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10b43cc1-530a-4fbc-8c36-bdab35e0422f")
+		(property "Reference" "Microlino_Zündung1"
+			(at 173.99 142.8749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 173.99 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "2448bb66-c3aa-4fc8-8e6a-4afed39100c0")
+		)
+		(pin "2"
+			(uuid "b8f91e72-481e-4fd4-b189-d3a55aff3e5e")
+		)
+		(pin ""
+			(uuid "2f4e4164-1d4f-4a28-826b-66be045f0053")
+		)
+		(pin ""
+			(uuid "8324281b-ade3-416b-8df2-4ed75d31513e")
+		)
+		(pin ""
+			(uuid "46a57af2-b156-41b1-92b4-589cb75f082d")
+		)
+		(pin ""
+			(uuid "fb3d22f2-737e-43e6-a530-b6ef6633b0b1")
+		)
+		(pin ""
+			(uuid "e86ec1ce-2864-49c0-80eb-e6344ebbf812")
+		)
+		(pin "1"
+			(uuid "3edc96bf-f488-4530-b022-4cdb5ec27670")
+		)
+		(instances
+			(project ""
+				(path "/6b7edb0b-ba84-49d7-8a33-d453b93ff911"
+					(reference "Microlino_Zündung1")
 					(unit 1)
 				)
 			)
@@ -3649,6 +4151,94 @@
 			(project "Wirkschaltschema_BMW_R80_7"
 				(path "/6b7edb0b-ba84-49d7-8a33-d453b93ff911"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Silent_Hektik_LiMa_Dauer_Drehstr._Kont_3Pha.:LiMa")
+		(at 102.87 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8d45360-a7fb-4585-b2d8-bdad9eeee786")
+		(property "Reference" "LiMa-Kontroller1"
+			(at 121.92 147.9549 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 121.92 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "8d0a8497-5b45-4903-a88c-0dedf16d3472")
+		)
+		(pin "5"
+			(uuid "8ce19130-28a5-42cd-b160-208ba52880e3")
+		)
+		(pin "6"
+			(uuid "dea5619f-1cd8-451a-9ee5-6c786b9855aa")
+		)
+		(pin "2"
+			(uuid "1ee1d128-103c-415b-a465-b0618a911f57")
+		)
+		(pin ""
+			(uuid "188820ce-f6e2-4ee6-8d9d-5db7589a9376")
+		)
+		(pin "1"
+			(uuid "ced8ff1c-8efa-4dea-a826-35267e753d29")
+		)
+		(pin "7"
+			(uuid "b55b259b-48dc-4e5f-a31c-762074baa58c")
+		)
+		(pin "4"
+			(uuid "4fd0197d-e2db-4c6d-9a7e-3932eb2a66e3")
+		)
+		(instances
+			(project ""
+				(path "/6b7edb0b-ba84-49d7-8a33-d453b93ff911"
+					(reference "LiMa-Kontroller1")
 					(unit 1)
 				)
 			)
